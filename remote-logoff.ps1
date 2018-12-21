@@ -6,10 +6,6 @@ Param (
     [string[]]$ComputerName,$UserName
 
 )
-<#
-$ComputerName = Read-Host "Please enter a server"
-$UserName = Read-Host "Please enter a username"
-#>
 
 $SessionId = ((quser /server:$ComputerName | Where-Object { $_ -match $UserName }) -split ' +')[3]
 <#
