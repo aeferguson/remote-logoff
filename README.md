@@ -10,3 +10,11 @@ Log a user 'Admin-Bob' off of a Windows machine 'Server42'
 ```
 ### Prerequisites
 You will need administrator credentials to the remote machine and to be on the same domain (if applicable)
+
+## Authors
+
+* **Andrew Ferguson** - *Initial work* - (https://github.com/aeferguson)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
