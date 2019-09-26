@@ -22,3 +22,6 @@ You will need administrator credentials to the remote machine and to be on the s
 
 This project is licensed under the [GNU-GPLv3](https://www.gnu.org/licenses/gpl-3.0) License - see the [LICENSE.md](LICENSE.md) file for details\
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+based on question here:
+(https://social.technet.microsoft.com/Forums/windows/en-US/16f3aaf9-7333-45d8-a311-3c9fde494e31/logoff-a-specific-user-powershell-script?forum=ITCG)
