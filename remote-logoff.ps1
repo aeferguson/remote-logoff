@@ -9,7 +9,7 @@ $ErrorActionPreference = 'Stop';
 $error.clear()
 
 try {
-  Get-WmiObject -ComputerName $ComputerName -Class win32_OperatingSystem | Out-Null
+    Test-Connection -TargetName $ComputerName -Quiet | Out-Null
 }
 catch {
   Write-Warning -Message "Computer $ComputerName offline or not responding";
