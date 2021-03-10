@@ -9,7 +9,7 @@ $ErrorActionPreference = 'Stop';
 $error.clear()
 
 try {
-    Test-Connection -TargetName $ComputerName -Quiet | Out-Null
+    Test-Connection -TargetName $ComputerName -Quiet | Out-Null #test if computer is up/responding
 }
 catch {
   Write-Warning -Message "Computer $ComputerName offline or not responding";
